@@ -1,0 +1,19 @@
+{
+  "name": "storybook",
+  "packageManager": "pnpm@10.11.0",
+  "scripts": {
+    "storybook": "storybook dev --no-open -p 6006"
+  },
+  "devDependencies": {
+    "@repo/ui": "workspace:*",
+    "@storybook/nextjs-vite": "^9.1.5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "next": "15.5.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "storybook": "^9.1.5",
+    "typescript": "^5"
+  }
+}
